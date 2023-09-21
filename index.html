@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    
+</head>
+
+
+
+<body>
+           <header>
+            <nav>
+            </nav>
+            </header>
+    <main class="mainn">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="../imagenes/BC20 - BAJA CALIDAD.jpg" width="151px">
+                        <div class="card-body">
+                            <h5 class="card-title">Bidon Retornable de 20Litros</h5>
+                            <p class="card-text"></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button class="btn" id="boton3">Detalles</button>
+                                </div>
+                                <a class="btn btn-success" id="boton6">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                      <img src="../imagenes/88.jpg" width="250px">
+                      <div class="card-body">
+                          <h5 class="card-title">Bidon Retornable de 10Litros</h5>
+                          <p class="card-text"></p>
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button class="btn" id="boton2">Detalles</button>
+                              </div>
+                              <a  class="btn btn-success" id="boton5"> Agregar al carrito</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                    <img src="../imagenes/dispenserr.jpg" width="227px">
+                    <div class="card-body" id="icono-carrito">
+                        <h5 class="card-title">Dispenser</h5>
+                        <p class="card-text"></p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">      
+                                <button class="btn" id="boton1" >Detalles</button>
+                            </div>
+                            <a class="btn btn-success" id="boton4">Agregar al carrito</a>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+    </main>
+<div class="container">
+    <div class="section">
+    </div>
+</div>
+    <button class="btn" id="boton">Chequear</button>
+
+    <table>
+        <thead>
+            <tr>        
+                <th>Bidon retornable de 10              
+                </th>  
+                 <th>Bidon retornable de 20</th>
+                <th>Dispenser</th>
+              
+            </tr>       
+        </thead>
+        <tbody id="res">
+        </tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./ajax2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

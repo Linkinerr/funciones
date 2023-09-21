@@ -1,0 +1,12 @@
+[
+    {
+ "bidonchico": "10LITROS",
+        "bidon": "20LITROS",
+        "dispenser": "Gratis"        
+    }, 
+    {
+        "bidonchico": "500$",
+               "bidon": "900$",
+               "dispenser": "Gratis"  
+           }
+       ]
